@@ -1,0 +1,159 @@
+/* Test to see if this works*/
+.Resume {
+		text-align: left;
+		text-align-last: left;
+	}
+
+.Contactme {
+		text-align: center;
+		text-align-last: center;
+	}
+
+.Blog{
+		text-align: right;
+		text-align-last: right;
+	}
+	.background {
+		background-color: gray;
+	}
+	/* Test to see if this works*/
+body{
+	background-color: #64485C;
+}
+span {
+  background-color: gray;
+}
+img {
+	border: 1px solid #ddd; /* Gray border */
+  	border-radius: 8px;  /* Rounded border */
+  	padding: 20px; /* Some padding */
+  	width: 100px; /* Set a small width */
+  	height: 55px;
+}
+/* Add a hover effect (blue shadow) */
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.side {
+	display:block;
+	margin-right: auto;
+	align:right;
+}
+.Lakers {
+	display:inline;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-family: Lucida Console;
+	margin-right: 30px;
+}
+nav li {
+	display:inline;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-family: Lucida Console;
+	margin-right: 30px;
+}
+nav a {
+	text-decoration: none;
+	color: black;
+}
+nav a:hover {
+	text-decoration: underline;
+	color: blue;
+}
+h1 {
+	color:#0B0C10;
+}
+h2 {
+	color:black;
+	font-size: 30px;
+}
+li {
+	font-weight:bold;
+}
+button {
+	border: 2px solid black;
+	padding: 10px 25px;
+	margin-botton: 20px;
+}
+button:hover {
+	background-color: black;
+	color: white;
+}
+.BlueButton{
+	border: 2px dolid red;
+}
+.BlueButton{
+	background-color: red;
+}
+.RedButton[
+	border: 2px dolid blue;
+]
+.RedButton{
+	background-color: blue;
+}
+#headshot {
+	position:absolute;
+	top: 10%;
+	right: 20%
+}
+/* Link Box Styles */
+#linkBox_content:hover #linkBox_img {
+	transform: scale(1.25);
+}
+#linkBox_content {
+	position: relative;
+	width: 33%;
+	overflow: hidden;
+}
+#linkBox_img {
+	width: 100%;
+	transition: all 1.5s ease-in-out;
+}
+#linkBox_text {
+	position: absolute;
+	top: 30%;
+	left: 12%;
+	color: white;
+	font-size: 25px;
+	font-family: sans-serif;
+}
+/* Use commas to seperate multiple selectors and apply the same rule to all */
+table, th, td {
+	border: 3px solid black;
+}
+table {
+	background-color: yellow;
+	padding: 15px;
+	margin: 0 auto; /* When there is two numbers, the first number is for top+bottom, the second is for right+left */
+}
+th, td {
+	background-color: white;
+	padding: 5px;
+}
+.tableHeadingRow {
+	margin-bottom: 10px;
+}
+/* The # signals an ID */
+#placesHeader {
+	color: blue;
+	text-align: center;
+	margin-bottom: 50px;
+}
+/* The . signals a Class */
+.educationImage {
+	transform: rotate(180deg);
+}
+#paragraphSpace {
+	margin-top: 200px;
+}
+form input, form select {
+	display:block;
+}
+.inline{
+	display: inline;
+}
+footer{
+	position: bottom;
+	bottom:0;
+}

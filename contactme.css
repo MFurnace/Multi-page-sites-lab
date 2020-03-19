@@ -1,0 +1,184 @@
+/* Test to see if this works*/
+.Resume {
+		text-align: left;
+		text-align-last: left;
+	}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+/* Navbar links */
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: #000;
+}
+
+/* Current/active navbar link */
+.active {
+  background-color: #4CAF50;
+}
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+.Contactme {
+		text-align: center;
+		text-align-last: center;
+	}
+
+.My5favoriterestaurants {
+		text-align: right;
+		text-align-last;
+	}
+	.background {
+		background-color: gray;
+	}
+	/* Test to see if this works*/
+body{
+	background-color: gray;
+}
+	.function focusFunction() {
+  	document.getElementById("myInput").style.background-color:yellow;
+}
+
+/*No focus = Changes the background color of input to red*/
+.function blurFunction() {
+  document.getElementById("lastname").style.background = "red";
+}
+.Lakers {
+	display:inline;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-family: Lucida Console;
+	margin-right: 30px;
+}
+nav li {
+	display:inline;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-family: Lucida Console;
+	margin-right: 30px;
+}
+nav a {
+	text-decoration: none;
+	color: black;
+}
+nav a:hover {
+	text-decoration: underline;
+	color: blue;
+}
+h1 {
+	color:maroon;
+}
+h2 {
+	color:maroon;
+	font-size: 30px;
+}
+li {
+	font-weight:bold;
+}
+button {
+	border: 2px solid black;
+	padding: 20px 25px;
+	margin-botton: 20px;
+}
+button:hover {
+	background-color: black;
+	color: white;
+}
+.BlueButton{
+	border: 2px dolid red;
+}
+.BlueButton{
+	background-color: red;
+}
+.RedButton[
+	border: 2px dolid blue;
+]
+.RedButton{
+	background-color: blue;
+}
+#headshot {
+	position:absolute;
+	top: 10%;
+	right: 20%
+}
+/* Link Box Styles */
+#linkBox_content:hover #linkBox_img {
+	transform: scale(1.25);
+}
+#linkBox_content {
+	position: relative;
+	width: 33%;
+	overflow: hidden;
+}
+#linkBox_img {
+	width: 100%;
+	transition: all 1.5s ease-in-out;
+}
+#linkBox_text {
+	position: absolute;
+	top: 30%;
+	left: 12%;
+	color: white;
+	font-size: 25px;
+	font-family: Lucida Console;
+}
+/* Use commas to seperate multiple selectors and apply the same rule to all */
+table, th, td {
+	border: 3px solid black;
+}
+table {
+	background-color: maroon;
+	padding: 15px;
+	margin: 0 auto; /* When there is two numbers, the first number is for top+bottom, the second is for right+left */
+}
+th, td {
+	background-color: white;
+	padding: 10px;
+}
+.tableHeadingRow {
+	margin-bottom: 10px;
+}
+/* The # signals an ID */
+#placesHeader {
+	color: blue;
+	text-align: center;
+	margin-bottom: 50px;
+}
+/* The . signals a Class */
+.educationImage {
+	transform: rotate(180deg);
+}
+#paragraphSpace {
+	margin-top: 200px;
+}
+form input, form select {
+	display:block;
+}
+.inline{
+	display: inline;
+}
+footer{
+	position: absolute;
+	bottom: 0;
+}
